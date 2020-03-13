@@ -284,7 +284,12 @@ você investiria?
 ABB, ABAX e ABBV
 
 9. Liste as ações agrupadas por setor
- ```
+
+```
+db.stocks.aggregate({ $project : { Ticker : 1, profit : 1 } }, { $group: { Sector: { $avg: {"$profit" } } } } )
+```
+Importação: 
+```
  mongoimport --db stocks --collection stocks --file
  stocks.json
  ```
