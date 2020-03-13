@@ -1,7 +1,7 @@
-# mongodb
+## mongodb
 Mongo DB - Trabalho
 
-**Exercício 1- Aquecendo com os pets
+# Exercício 1- Aquecendo com os pets
 
 Insira os seguintes registros no MongoDB e em seguida responda as questões abaixo:
 
@@ -76,7 +76,7 @@ WriteResult({ "nInserted" : 1 })
 ```
 
 
-**Exercício 2 – Mama mia!
+# Exercício 2 – Mama mia!
 
 Importe o arquivo dos italian-people.js do seguinte endereço: Downloads NoSQL FURB. Em seguida, importe o mesmo com o seguinte comando:
 ```
@@ -116,7 +116,7 @@ nomes. Faça isso usando apenas o primeiro nome
 mais de 20 e menos de 60 anos.
 
 
-**Exercício 3 - Stockbrokers
+# Exercício 3 - Stockbrokers
 
 Bancos NoSQL – FURB
 
